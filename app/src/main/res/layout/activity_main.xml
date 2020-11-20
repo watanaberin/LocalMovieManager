@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.douban.MainActivity" >
+
+
+
+    <RelativeLayout
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="306dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="账号密码登录"
+            android:textColor="#191919"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/EditText1"
+            android:layout_width="378dp"
+            android:layout_height="59dp"
+            android:layout_above="@+id/EditText2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/foredit"
+            android:hint="   请输入手机号/邮箱"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/EditText2"
+            android:layout_width="384dp"
+            android:layout_height="59dp"
+            android:layout_above="@+id/sign_in_button"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/foredit"
+            android:hint="   请输入密码"
+            android:imeActionLabel="2222222"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <ImageView
+            android:layout_width="273dp"
+            android:layout_height="133dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="600dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ico" />
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="61dp"
+            android:layout_marginBottom="253dp"
+            android:background="#a0deaa"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:text="登录"
+            android:onClick="onClick"
+            android:textColor="#191919"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="184dp"
+            android:background="#a0deaa"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:text="注册"
+            android:onClick="onClick"
+            android:textColor="#191919"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</merge>

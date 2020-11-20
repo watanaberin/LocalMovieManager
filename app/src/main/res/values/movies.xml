@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="movies">
+    <item>报社记者郭建波、母亲纪明岚与女儿郭婉婷同住在一个屋檐下，祖孙三代因亲情关系捆绑在一起的生活，看似平静实则暗潮涌动。</item>
+    <item>基于Nathaniel Rich在《纽约时报》上发表的文章《The Lawyer Who Became DuPont’s Worst Nightmare》，围绕罗伯特·比洛特展开，他担任辩护律师长达8年之久，他对化工巨头杜邦公司提起了环境诉讼，这场官司揭露了几十年来杜邦公司化学污染的历史。</item>
+    <item>荣获奥斯卡金像奖的斯派克·李为我们带来了全新作品，这个故事讲述了四个非裔美国退伍军人返回越南的故事。</item>
+    <item>高一那年夏天，帆高（醍醐虎汰朗配音）离开位在离岛的家乡，独自一人来到东京，拮据的生活迫使他不得不找份工作，最后来到一间专门出版奇怪超自然刊物的出版社担任写手。</item>
+    </string-array>
+
+
+</resources>
